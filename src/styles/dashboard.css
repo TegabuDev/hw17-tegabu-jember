@@ -1,0 +1,7 @@
+.dashboard-container{
+    background-color: var(--grey-200);
+    height: 570px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,41 @@
+.addStudent-container{
+    background-color: var(--grey-300);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.addStudent-container h3{
+    padding: 10px;
+}
+.form-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container  button {
+    padding: 9px 20px;
+    border-radius: 5px;
+    background-color: var(--green-dark);
+    color:  var(--grey-100);
+    letter-spacing: 1.3px;
+    cursor: pointer;
+} 
+.form-container  button:hover{
+    background-color: var(--grey-300);
+    color: var(--green-light);
+}
+
+.form-container  input {
+    background-color: var(--grey-100);
+    margin: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: 16px;
+} 
+
+.form-container label{
+    font-size: 20px;
+}

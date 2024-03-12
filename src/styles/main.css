@@ -1,0 +1,11 @@
+@import "./global.css";
+@import "./addStudent.css";
+@import "./header.css";
+@import "./dashboard.css";
+@import "./footer.css";
+@import "./studentList.css";
+@import "./button.css";
+@import "./loginForm.css";
+@import "./registerForm.css";
+@import "./alert.css";
+@import "./users/UsersList.css";

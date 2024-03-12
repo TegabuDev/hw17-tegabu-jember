@@ -1,0 +1,36 @@
+.header-container {
+  height: 100px;
+  background-color: var(--grey-500);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.header-container .right-header {
+  display: flex;
+}
+
+.header-container .logout-btn {
+  padding: 10px 12px;
+  background-color: var(--grey-600);
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  transition: 0.3s;
+  color: var(--green-light1);
+  margin-top: 10px;
+  margin: 10px;
+  border: var(--green-light2) solid 0.1em;
+}
+
+.header-container .logout-btn:hover {
+  /* background-color: var(--grey-400); */
+  opacity: 0.4;
+}
+
+h1 {
+  color: var(--green-light1);
+}
